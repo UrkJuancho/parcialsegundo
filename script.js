@@ -80,7 +80,6 @@ function actualizarTabla(categoria) {
             <th>Precio</th>
         </tr>
     `;
-    
     // Agregar filas a la tabla con el nombre y precio de cada producto
     inventario[categoria].forEach(producto => {
         table.innerHTML += `

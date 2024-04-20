@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Productos Electrónicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inventario de Productos Electrónicos</h1>
+        <div id="output">
+            <h2>Laptops</h2>
+            <table id="laptops-table"></table>
+            <button onclick="agregarProducto('laptops')">Agregar Laptop</button>
+            <button onclick="actualizarTabla('laptops')">Actualizar</button>
+            <h2>Smartphones</h2>
+            <table id="smartphones-table"></table>
+            <button onclick="agregarProducto('smartphones')">Agregar Smartphone</button>
+            <button onclick="actualizarTabla('smartphones')">Actualizar</button>
+            <h2>Tablets</h2>
+            <table id="tablets-table"></table>
+            <button onclick="agregarProducto('tablets')">Agregar Tablet</button>
+            <button onclick="actualizarTabla('tablets')">Actualizar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
